@@ -6,12 +6,12 @@ Punto de inicio de la aplicación (entry point)
 
 */
 
-import dbConnect from './src/libs/db.js'
+import dbConnect from './src/libs/db.js' //export de connect
 import {server} from './src/server.js'
 
 
 
-
+//1ero nos conectamos y después levantamos el servidor
 
 
 
